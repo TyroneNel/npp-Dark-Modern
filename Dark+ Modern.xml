@@ -1816,30 +1816,30 @@
             <WordsStyle styleID="9" name="ColumnColor9" fgColor="4EC9B0" colorStyle="1" fontName="Consolas" fontStyle="0"></WordsStyle>
             <WordsStyle styleID="10" name="ColumnColor10" fgColor="D16969" colorStyle="1" fontName="Consolas" fontStyle="0"></WordsStyle>
         </LexerType>
-        <LexerType name="markdown" desc="Markdown2" ext="md markdown">
+        <LexerType name="markdown" desc="Markdown2" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="D4D4D4" colorStyle="1" fontName="" fontStyle="0"></WordsStyle>
-            <WordsStyle name="LINE BEGIN" styleID="1" fgColor="FF0000" colorStyle="1" fontName="" fontStyle="0"></WordsStyle>
-            <WordsStyle name="STRONG1" styleID="2" fgColor="80FF00" colorStyle="1" fontName="" fontStyle="1"></WordsStyle>
-            <WordsStyle name="STRONG2" styleID="3" fgColor="0000FF" colorStyle="1" fontName="" fontStyle="1"></WordsStyle>
-            <WordsStyle name="EM1" styleID="4" fgColor="8000FF" colorStyle="1" fontName="" fontStyle="2"></WordsStyle>
-            <WordsStyle name="EM2" styleID="5" fgColor="8000FF" colorStyle="1" fontName="" fontStyle="2"></WordsStyle>
-            <WordsStyle name="HEADER1" styleID="6" fgColor="FF00FF" colorStyle="1" fontName="" fontStyle="1"></WordsStyle>
-            <WordsStyle name="HEADER2" styleID="7" fgColor="FF80FF" colorStyle="1" fontName="" fontStyle="1"></WordsStyle>
-            <WordsStyle name="HEADER3" styleID="8" fgColor="408080" colorStyle="1" fontName="" fontStyle="1"></WordsStyle>
-            <WordsStyle name="HEADER4" styleID="9" fgColor="00FF80" colorStyle="1" fontName="" fontStyle="1"></WordsStyle>
-            <WordsStyle name="HEADER5" styleID="10" fgColor="808040" colorStyle="1" fontName="" fontStyle="1"></WordsStyle>
-            <WordsStyle name="HEADER6" styleID="11" fgColor="FFFF80" colorStyle="1" fontName="" fontStyle="1"></WordsStyle>
-            <WordsStyle name="PRECHAR" styleID="12" fgColor="FFFF00" colorStyle="1" fontName="" fontStyle="0"></WordsStyle>
-            <WordsStyle name="ULIST ITEM" styleID="13" fgColor="804040" colorStyle="1" fontName="" fontStyle="1"></WordsStyle>
-            <WordsStyle name="OLIST ITEM" styleID="14" fgColor="400000" colorStyle="1" fontName="" fontStyle="1"></WordsStyle>
-            <WordsStyle name="BLOCKQUOTE" styleID="15" fgColor="55996A" colorStyle="1" fontName="" fontStyle="0"></WordsStyle>
-            <WordsStyle name="STRIKEOUT" styleID="16" fgColor="8080C0" colorStyle="1" fontName="" fontStyle="0"></WordsStyle>
-            <WordsStyle name="HRULE" styleID="17" fgColor="0080C0" colorStyle="1" fontName="" fontStyle="0"></WordsStyle>
-            <WordsStyle name="LINK" styleID="18" fgColor="80FFFF" colorStyle="1" fontName="" fontStyle="0"></WordsStyle>
-            <WordsStyle name="REFERENCE" styleID="19" fgColor="808000" colorStyle="1" fontName="" fontStyle="0"></WordsStyle>
-            <WordsStyle name="CODE" styleID="20" fgColor="7891CE" colorStyle="1" fontName="" fontStyle="0"></WordsStyle>
-            <WordsStyle name="CODE2" styleID="21" fgColor="7891CE" colorStyle="1" fontName="" fontStyle="0"></WordsStyle>
-            <WordsStyle name="CODEBK" styleID="22" fgColor="7891CE" colorStyle="1" fontName="" fontStyle="0"></WordsStyle>
+            <WordsStyle name="LINE BEGIN" styleID="1" fgColor="6E7681" colorStyle="1" fontName="" fontStyle="0"></WordsStyle>
+            <WordsStyle name="STRONG1" styleID="2" fgColor="569CD6" colorStyle="1" fontName="" fontStyle="1"></WordsStyle>
+            <WordsStyle name="STRONG2" styleID="3" fgColor="569CD6" colorStyle="1" fontName="" fontStyle="1"></WordsStyle>
+            <WordsStyle name="EM1" styleID="4" fgColor="C586C0" colorStyle="1" fontName="" fontStyle="2"></WordsStyle>
+            <WordsStyle name="EM2" styleID="5" fgColor="C586C0" colorStyle="1" fontName="" fontStyle="2"></WordsStyle>
+            <WordsStyle name="HEADER1" styleID="6" fgColor="569CD6" colorStyle="1" fontName="" fontStyle="1"></WordsStyle>
+            <WordsStyle name="HEADER2" styleID="7" fgColor="569CD6" colorStyle="1" fontName="" fontStyle="1"></WordsStyle>
+            <WordsStyle name="HEADER3" styleID="8" fgColor="9CDCFE" colorStyle="1" fontName="" fontStyle="1"></WordsStyle>
+            <WordsStyle name="HEADER4" styleID="9" fgColor="9CDCFE" colorStyle="1" fontName="" fontStyle="1"></WordsStyle>
+            <WordsStyle name="HEADER5" styleID="10" fgColor="4EC9B0" colorStyle="1" fontName="" fontStyle="1"></WordsStyle>
+            <WordsStyle name="HEADER6" styleID="11" fgColor="4EC9B0" colorStyle="1" fontName="" fontStyle="1"></WordsStyle>
+            <WordsStyle name="PRECHAR" styleID="12" fgColor="DCDCAA" colorStyle="1" fontName="" fontStyle="0"></WordsStyle>
+            <WordsStyle name="ULIST ITEM" styleID="13" fgColor="569CD6" colorStyle="1" fontName="" fontStyle="0"></WordsStyle>
+            <WordsStyle name="OLIST ITEM" styleID="14" fgColor="569CD6" colorStyle="1" fontName="" fontStyle="0"></WordsStyle>
+            <WordsStyle name="BLOCKQUOTE" styleID="15" fgColor="6A9955" colorStyle="1" fontName="" fontStyle="2"></WordsStyle>
+            <WordsStyle name="STRIKEOUT" styleID="16" fgColor="6E7681" colorStyle="1" fontName="" fontStyle="0"></WordsStyle>
+            <WordsStyle name="HRULE" styleID="17" fgColor="6E7681" colorStyle="1" fontName="" fontStyle="0"></WordsStyle>
+            <WordsStyle name="LINK" styleID="18" fgColor="9CDCFE" colorStyle="1" fontName="" fontStyle="4"></WordsStyle>
+            <WordsStyle name="REFERENCE" styleID="19" fgColor="CE9178" colorStyle="1" fontName="" fontStyle="0"></WordsStyle>
+            <WordsStyle name="CODE" styleID="20" fgColor="CE9178" colorStyle="1" fontName="" fontStyle="0"></WordsStyle>
+            <WordsStyle name="CODE2" styleID="21" fgColor="CE9178" colorStyle="1" fontName="" fontStyle="0"></WordsStyle>
+            <WordsStyle name="CODEBK" styleID="22" fgColor="CE9178" colorStyle="1" fontName="" fontStyle="0"></WordsStyle>
         </LexerType>
         <LexerType name="F#" desc="F#" ext="">
             <WordsStyle name="KEYWORDS 1" styleID="1" fgColor="C586C0" colorStyle="1" fontName="" fontStyle="1" fontSize="10" keywordClass="instre1"></WordsStyle>
@@ -1868,8 +1868,8 @@
         <WidgetStyle name="Brace highlight style" styleID="34" fgColor="FFD700" bgColor="3C3C3C" fontName="" fontStyle="1" fontSize=""></WidgetStyle>
         <WidgetStyle name="Bad brace colour" styleID="35" fgColor="F44747" bgColor="3C3C3C" fontName="" fontStyle="0" fontSize=""></WidgetStyle>
         <WidgetStyle name="Current line background colour" styleID="0" bgColor="282828"></WidgetStyle>
-        <WidgetStyle name="Selected text colour" styleID="0" bgColor="324E79" fgColor="000000"></WidgetStyle>
-        <WidgetStyle name="Multi-selected text color" styleID="0" bgColor="324E79"></WidgetStyle>
+        <WidgetStyle name="Selected text colour" styleID="0" bgColor="0078D4" fgColor="FFFFFF"></WidgetStyle>
+        <WidgetStyle name="Multi-selected text color" styleID="0" bgColor="0078D4"></WidgetStyle>
         <WidgetStyle name="Caret colour" styleID="2069" fgColor="ADAFAE"></WidgetStyle>
         <WidgetStyle name="Multi-edit carets color" styleID="0" fgColor="ADAFAE"></WidgetStyle>
         <WidgetStyle name="Edge colour" styleID="0" fgColor="3C3C3C"></WidgetStyle>
@@ -1884,7 +1884,7 @@
         <WidgetStyle name="Fold active" styleID="0" fgColor="AFAFAF"></WidgetStyle>
         <WidgetStyle name="Fold margin" styleID="0" fgColor="181818" bgColor="181818"></WidgetStyle>
         <WidgetStyle name="White space symbol" styleID="0" fgColor="3C3C3C"></WidgetStyle>
-        <WidgetStyle name="Smart Highlighting" styleID="29" bgColor="1F3D5C"></WidgetStyle>
+        <WidgetStyle name="Smart Highlighting" styleID="29" bgColor="2B6CB0"></WidgetStyle>
         <WidgetStyle name="Find Mark Style" styleID="31" bgColor="9E6A03"></WidgetStyle>
         <WidgetStyle name="Find status: Not found" styleID="0" fgColor="F44747"></WidgetStyle>
         <WidgetStyle name="Find status: Message" styleID="0" fgColor="CCCCCC"></WidgetStyle>

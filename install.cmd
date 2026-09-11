@@ -1,4 +1,12 @@
 @echo off
+:: Refuse admin context: %AppData% resolves to the admin profile when
+:: elevated, so an admin install would copy the theme to the wrong user.
+net session >nul 2>&1
+if %errorLevel% equ 0 (
+    echo Do not run as administrator - run as a regular user.
+    pause
+    exit /b 1
+)
 :: ==========================================================
 :: Install Dark+ Modern notepad++ theme
 :: ==========================================================
@@ -10,7 +18,7 @@ setlocal
 set "THEME_NAME=Dark+ Modern.xml"
 set "THEME_DIR=%AppData%\Notepad++\themes"
 
-set "UDL_SRC=plugins\markdown-dark.xml"
+set "UDL_MDN=plugins\markdown-dark.xml"
 set "UDL_DIR=%AppData%\Notepad++\userDefineLangs"
 
 set "PLUGIN_SRC=plugins\CSVLint.xml"
@@ -31,8 +39,8 @@ if %errorlevel% neq 0 ( echo   [FAILED] Theme & set "ERRORS=1" ) else echo   [OK
 :: ----------------------------------------------------------
 echo Installing UDL files...
 if not exist "%UDL_DIR%" mkdir "%UDL_DIR%"
-copy /y "%~dp0%UDL_SRC%" "%UDL_DIR%\" >nul
-if %errorlevel% neq 0 ( echo   [FAILED] %UDL_SRC% & set "ERRORS=1" ) else echo   [OK] %UDL_SRC% ^-^> %UDL_DIR%
+copy /y "%~dp0%UDL_MDN%" "%UDL_DIR%\" >nul
+if %errorlevel% neq 0 ( echo   [FAILED] %UDL_MDN% & set "ERRORS=1" ) else echo   [OK] %UDL_MDN% ^-^> %UDL_DIR%
 
 :: ----------------------------------------------------------
 :: Plugin config (CSVLint)
